@@ -14,86 +14,11 @@ if (!$connection) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo project</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./style.css">
     <!-- fontawesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
-    <style>
-        body {
-            /* background: #000; */
-        }
 
-        .container {
-            background: skyblue;
-            width: 100%;
-            height: 90vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        form {
-            text-align: center;
-            margin-bottom: 2rem;
-        }
-
-        input {
-            border: none;
-            outline: none;
-            padding: 22px;
-            border-radius: 10px;
-            width: 26rem;
-        }
-
-        form button {
-            border: none;
-            outline: none;
-            padding: 9px;
-            margin-left: -4rem;
-            border-radius: 10px;
-            background: skyblue;
-            color: #000;
-            font-weight: 600;
-        }
-
-        ul {
-            /* margin-left: 16rem; */
-            margin: 0;
-            padding: 0;
-        }
-
-        ul li {
-            /* margin-bottom: 2rem; */
-            list-style-type: none;
-        }
-
-        .todo-collection {
-            background: #fff;
-            display: flex;
-            justify-content: space-between;
-            margin-left: 3rem;
-            align-items: center;
-            width: 80% !important;
-            margin-bottom: 2rem;
-            padding: 10px;
-            border-radius: 5px;
-        }
-
-        a {
-            text-decoration: none;
-            color: #000;
-        }
-
-        .update-btn {
-            margin-left: -4.2rem;
-        }
-
-        .crud-icons button {
-            border: none;
-            outline: none;
-            padding: 8px;
-            background: tomato;
-            background: transparent;
-        }
-    </style>
 </head>
 
 <body>
